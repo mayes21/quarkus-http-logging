@@ -1,4 +1,4 @@
-package dev.quarkus;
+package dev.quarkus.config;
 
 import javax.ws.rs.NameBinding;
 import java.lang.annotation.Retention;

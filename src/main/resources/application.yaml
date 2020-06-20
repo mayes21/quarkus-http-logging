@@ -1,0 +1,18 @@
+quarkus:
+  log:
+    level: INFO
+    category:
+      "dev.quarkus.config":
+        level: TRACE
+
+"%dev":
+  quarkus:
+    log:
+      console:
+        json: false
+"%test":
+  quarkus:
+    log:
+      console:
+        json: false
+
